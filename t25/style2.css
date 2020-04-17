@@ -1,0 +1,40 @@
+.block{
+    width: 130px;
+    padding:40px 0 ;
+    background-color: #61d6fa;
+    margin:10px 8px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px blue;
+    float: left;
+    transition: 0.5s;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+    font-family: cursive;
+}
+.ordered{
+    background-color: red;
+}
+.anim1:hover{
+    transform: rotate(20deg) scale(1.05);
+    background-color: greenyellow;
+
+}
+.anim2:hover{
+    animation: ordered 0.8s ease;
+}
+@keyframes ordered{
+    0%      {transform: rotate(15deg);}
+    25%     {transform: rotate(-15deg);}
+    50%     {transform: rotate(15deg);}
+    75%     {transform: rotate(-15deg);}
+    100%    {transform: rotate(0deg);}
+}
+a{
+    text-decoration: none;
+}
+
+
+
+

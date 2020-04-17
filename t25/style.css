@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    width: 400px;
+    background: linear-gradient(to right,red,purple,navy);
+    margin: 80px 0;
+    padding: 90px 0;
+    font-size:16pt ;
+    font-family:cursive ;
+    color: white;
+    transition: all  0.5s  ease;
+}
+.anim1:hover{
+    box-shadow: inset 0px 0px 0px 30px blue;
+}
+.anim2{
+    opacity: 0.5;
+}
+.anim2:hover{
+    opacity: 1;
+}
+.anim3:hover{
+    transform: scale(1.1);
+}
+.anim4:hover{
+    border-radius: 100px;
+}
+.anim5:hover{
+    transform: rotate(20deg);
+}
+.anim6{
+    animation: kruty 3s linear infinite;
+
+}
+@keyframes kruty{
+    0%      {transform: rotate(0deg);}
+    50%     {transform: rotate(180deg) ; color: red;}
+    100%    {transform: rotate(360deg);}
+
+}
