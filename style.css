@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+header{
+    background-color: gray;
+    padding: 10px 40px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    margin-left:15px ;
+}
+.w-33{
+    width: 33.3333%;
+    float: left;
+}
+.bg1{
+background: #d1cfc9;
+}
+.bg2{
+background: #e6e4e1;
+}
+.bg3{
+background: #adaba6;
+}
+.h-800{
+    height: 800px;
+}
+li, p{
+    font-size: 25px;
+    color:navy;
+}
+footer{
+    background-color: gray;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    color:white;
+}
