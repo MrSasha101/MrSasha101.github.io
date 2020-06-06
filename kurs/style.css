@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #323232;
+    color: white;
+}
+.wrapper{
+    position: relative;
+    max-width: 1000px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: #fff;
+    color: #000;
+}
+.info{
+    color: blue;
+}
+.logo{
+    margin-left:30px;
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    margin: left;
+    width: 50px;
+    margin-left: 10px;
+    transform: rotate(-20deg);
+}
+.menu-items a{
+    border: 3px outset coral ;
+    font-family: 'Yeseva One', cursive;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    background-color: #fa8e8e;
+    transition: 1.1s;
+    text-decoration: none;
+    color: #000;
+}
+.menu-items a:hover{
+    background-color: #d34d4d;
+    color: white;
+    border: 3px outset coral;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.landing{
+    height: 600px;
+    background-image: url(images/landingbg.JPEG);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.game{
+    width: 20%;
+    height: 400px;
+}
+.game img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+.game img:hover{
+    transform: scale(1.1);
+}
+.text{
+    font-family: 'Oxygen', sans-serif;
+    width: 100%;
+    height: 400px;
+    background: #000;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.btn{
+    text-decoration: none;
+    background: #09a39e;
+    padding: 10px;
+    color: white;
+}
+.btn:hover{
+    background-color: teal;
+}
