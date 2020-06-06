@@ -4,10 +4,7 @@ body{
     background: #323232;
     color: white;
 }
-.wrapper{
-    position: relative;
-    max-width: 1000px;
-}
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -33,25 +30,19 @@ body{
     transform: rotate(-20deg);
 }
 .menu-items a{
-    border: 3px outset coral ;
     font-family: 'Yeseva One', cursive;
     padding: 5px 10px;
     margin-right: 10px;
     font-size: 20px;
-    background-color: #fa8e8e;
-    transition: 1.1s;
     text-decoration: none;
     color: #000;
 }
 .menu-items a:hover{
-    background-color: #d34d4d;
-    color: white;
-    border: 3px outset coral;
     text-decoration-line: underline;
     cursor: pointer;
 }
 .landing{
-    height: 600px;
+    height: 700px;
     background-image: url(images/landingbg.JPEG);
     width: 100%;
     background-repeat: no-repeat;
@@ -64,7 +55,7 @@ body{
 
 .game{
     width: 20%;
-    height: 400px;
+    height: 500px;
 }
 .game img{
     height: 100%;
@@ -94,4 +85,57 @@ body{
 }
 .btn:hover{
     background-color: teal;
+}
+/*До Футера*/
+.footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.social{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    width:450px ;
+}
+.social__item{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition:all 1s;
+}
+.social__item:hover{
+    cursor: pointer;
+}
+.viber:hover{
+    border-color: rgb(224, 0, 224);
+    box-shadow: 0 0 20px rgb(224, 0, 224);
+    color:rgb(224, 0, 224);
+
+}
+.instagram:hover{
+    border-color:#bc2a8d;
+    box-shadow:0 0 20px #bc2a8d ;
+    color:#bc2a8d;
+}
+.vk:hover{
+    border-color: #3d5afe;
+    box-shadow: 0 0 20px #3d5afe;
+    color:#3d5afe;
+}
+.twitter:hover{
+    border-color: #00aced;
+    box-shadow: 0 0 20px #00aced;
+    color:#00aced;
+}
+.google:hover{
+    border-color: #dd4b39;
+    box-shadow: 0 0 20px #dd4b39;
+    color:#dd4b39;
 }
