@@ -38,8 +38,8 @@ body{
     color: #000;
 }
 .menu-items a:hover{
-    text-decoration-line: underline;
-    cursor: pointer;
+    padding: 5px;
+    border-bottom: 3px solid black;
 }
 .landing{
     height: 700px;
