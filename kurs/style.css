@@ -43,7 +43,7 @@ body{
 }
 .landing{
     height: 700px;
-    background-image: url(images/landingbg.JPEG);
+    background-image: url(images/landingbg.jpeg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -139,3 +139,5 @@ body{
     box-shadow: 0 0 20px #dd4b39;
     color:#dd4b39;
 }
+
+
