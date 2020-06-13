@@ -88,7 +88,7 @@ input::-webkit-calendar-picker-indicator {
   }
 
 
-.footer{
+  .footer{
     display: flex;
     width: 100%;
     align-items: center;
