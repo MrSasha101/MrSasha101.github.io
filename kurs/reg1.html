@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <title>InfoGames</title>
     <link rel="shortcut icon" href="images/icons/InfoGames.ico" type="image/x-icon">
-    <link rel="stylesheet" href="reg1.css">
+    <link rel="stylesheet" href="reg.css">
     <script src="https://kit.fontawesome.com/46e9071234.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Condensed&family=Yeseva+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="content">
     <div class="menu">
         <div class="logo">
             <h1><a class="infoa" href="index.html"><span class="info">Info</span>Games</a></h1>
@@ -23,19 +22,24 @@
         </div>
         </div>
         <div class="main">
-            <h1 align="center">Дякуємо за реєстрацію</h1>
-            <br>
-            <br>
-            <p>Вам було надіслано на вказаний емейл листа з силкою для активації акаунта</p>
-            <br>
-            <br>
-            <p>Якщо лист не прийшов перевірте папку СПАМ</p>
-            <p>В іншому випадку пройдіть реєстрацію ще раз</p>
-            <p>Дякую що ви інтересуєтесь нашим сайтом і реєструєтесь</p>
-            <a href="reg.html">Пройти реєстрацію ще раз</a>
-            <a href="index.html">Вернутися на головну</a>
+            <h1 align="center">Пройдіть Реєстрацію щоб створити акаунт</h1>
+            <form action="reg1.html">
+            <input type="text" class="regist" placeholder="Ім'я" required title="Ім'я">
+            <input type="email" class="regist" placeholder="Емейл" required title="Емейл">
+            <input type="password" class="regist" placeholder="Пароль" required title="Пароль">
+            <input type="password" class="regist" placeholder="Пароль ще раз" required title="Пароль">
+            <input class="regist" placeholder="Рік народженя" required title="Рік" list="Year">
+            <datalist id="Year">
+            <option>2000</option>
+            <option>2005</option>
+            <option>2010</option>
+            <option>2015</option>
+            <option>2020</option>
+            </datalist>
+            <input type="submit" class="submit" value="Зареєструватися">
+            </form>
         </div>
-        <footer class="footer">
+        <div class="footer">
             <h1>lalalalalala@gmail.com</h1>
             <h1>© InfoGames</h1>
             <ul class="social">
@@ -46,7 +50,7 @@
                 <a><li class="social__item twitter"><i class="fab fa-twitter"></i></li></a>
                 <a><li class="social__item youtube"><i class="fab fa-youtube"></i></li></a>
             </ul>
-        </footer>
-    </div>
+        </div>
+
     </body>
 </html>
